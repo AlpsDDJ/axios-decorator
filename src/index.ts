@@ -1,6 +1,6 @@
 import axios, { AxiosRequestConfig } from 'axios'
 import {httpRequest} from "./request";
-import {cloneDeep} from 'lodash'
+import cloneDeep from 'lodash.clonedeep'
 
 type AxiosDecorator = (path?: string) => ClassDecorator
 

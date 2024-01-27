@@ -6,7 +6,8 @@
     "outDir": "./lib",
     "strict": true,
     "experimentalDecorators": true,
-    "lib": ["es6", "DOM"]
+    "lib": ["es6", "DOM"],
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src"],
   "exclude": ["node_modules", "**/__tests__/*"]
